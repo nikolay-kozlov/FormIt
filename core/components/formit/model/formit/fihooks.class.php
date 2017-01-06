@@ -445,6 +445,7 @@ class fiHooks {
                     $v = implode($multiSeparator, $vOpts);
                 }
             }
+            unset($v);
         }
 
         $message = $this->formit->getChunk($tpl, $fields);
